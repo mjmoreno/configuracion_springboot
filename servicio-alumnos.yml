@@ -1,3 +1,4 @@
+spring:
   datasource:
     url: jdbc:sqlserver://sql01-desa:63400;databaseName=CursoSpringBootDESA;trustServerCertificate=true;
     username: curso
@@ -21,7 +22,7 @@ server:
     context-path: /buscador
 oauth2:
   clientId: SpringClient
-eurela:
+eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
