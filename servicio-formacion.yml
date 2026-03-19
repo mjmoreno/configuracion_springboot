@@ -1,0 +1,15 @@
+server:
+  port: 9001
+remote:
+  user: admin
+  password: admin
+oauth2:
+  url: http://localhost:8080/realms/SpringRealm/protocol/openid-connect/token
+  grantType: password
+  clientId: SpringClient
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
